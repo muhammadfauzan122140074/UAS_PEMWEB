@@ -101,6 +101,7 @@ Langkah-langkah untuk Meng-host Aplikasi Web:
 5. **Konfigurasi Database:** Buat database melalui cPanel InfinityFree dan sesuaikan pengaturan pada aplikasi.
 6. **Pengujian dan Verifikasi:** Uji aplikasi dengan mengakses URL yang diberikan oleh InfinityFree untuk memastikan aplikasi berjalan dengan baik.
 
+
 **Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. (5%)**
 
 Alasan saya memilih InfinityFree karena:
@@ -109,11 +110,13 @@ Alasan saya memilih InfinityFree karena:
 - **User-Friendly**: Antarmuka cPanel yang sederhana membuatnya mudah digunakan, bahkan untuk pemula.
 - **Dukungan PHP dan MySQL**: Mendukung pengembangan aplikasi web dinamis yang memerlukan basis data, seperti yang dibutuhkan oleh aplikasi saya.
 
+
 **Bagaimana Anda memastikan keamanan aplikasi web yang Anda host: (5%)**
 
 Cara Memastikan Keamanan Aplikasi Web yang Dihost:
 - Memastikan setiap formulir di website perpustakaan, seperti formulir login atau pendaftaran, dilengkapi dengan validasi input di sisi klien (menggunakan JavaScript) dan di sisi server (menggunakan PHP).
 - Menggunakan fungsi sanitasi, seperti `htmlspecialchars()` di PHP, untuk mencegah serangan XSS (Cross-Site Scripting), terutama saat menampilkan input pengguna di halaman web.
+
 
 **Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda. (5%)**
 
