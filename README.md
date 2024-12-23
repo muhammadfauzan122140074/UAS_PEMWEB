@@ -62,10 +62,10 @@ Struktur basis data terdiri dari dua tabel utama, yaitu tabel login dan tabel se
 ![Screenshot 2024-12-24 010355](https://github.com/user-attachments/assets/17dd9879-11d8-4cab-8600-11ec98952293)
 
 - Tabel Sembako
-![Screenshot 2024-12-24 010527](https://github.com/user-attachments/assets/e862dd33-6a03-4b32-b92c-77ec53c0465a)
+  ![Screenshot 2024-12-24 010527](https://github.com/user-attachments/assets/e862dd33-6a03-4b32-b92c-77ec53c0465a)
 
 - Tabel Login
-![Screenshot 2024-12-24 010536](https://github.com/user-attachments/assets/3ae15ad3-ca5e-46f1-874e-264f5ac052dd)
+  ![Screenshot 2024-12-24 010536](https://github.com/user-attachments/assets/3ae15ad3-ca5e-46f1-874e-264f5ac052dd)
 
 Selanjutnya, dilakukan proses koneksi untuk mengintegrasikan database dengan script PHP:
 ![image](https://github.com/user-attachments/assets/9dee0a3f-afd7-435d-91ac-7999ae596153)
