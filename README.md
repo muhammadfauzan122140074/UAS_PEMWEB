@@ -62,9 +62,11 @@ Struktur basis data terdiri dari dua tabel utama, yaitu tabel login dan tabel se
 ![Screenshot 2024-12-24 010355](https://github.com/user-attachments/assets/17dd9879-11d8-4cab-8600-11ec98952293)
 
 - Tabel Sembako
+  
   ![Screenshot 2024-12-24 010527](https://github.com/user-attachments/assets/e862dd33-6a03-4b32-b92c-77ec53c0465a)
 
 - Tabel Login
+  
   ![Screenshot 2024-12-24 010536](https://github.com/user-attachments/assets/3ae15ad3-ca5e-46f1-874e-264f5ac052dd)
 
 Selanjutnya, dilakukan proses koneksi untuk mengintegrasikan database dengan script PHP:
@@ -90,6 +92,7 @@ Hosting dilakukan menggunakan layanan gratis dari InfinityFree:
 ![image](https://github.com/user-attachments/assets/25b90ebe-2470-467b-964c-0633d5540c4a)
 
 **Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda? (5%)**
+
 Langkah-langkah untuk Meng-host Aplikasi Web:
 1. **Persiapkan File Aplikasi Web:** Pastikan semua file telah diuji secara lokal dan, jika perlu, kompres menjadi satu folder.
 2. **Mendaftar di InfinityFree:** Daftarkan akun di www.infinityfree.com dengan menggunakan alamat email yang valid.
@@ -99,6 +102,7 @@ Langkah-langkah untuk Meng-host Aplikasi Web:
 6. **Pengujian dan Verifikasi:** Uji aplikasi dengan mengakses URL yang diberikan oleh InfinityFree untuk memastikan aplikasi berjalan dengan baik.
 
 **Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. (5%)**
+
 Alasan saya memilih InfinityFree karena:
 - **Gratis**: Ideal untuk proyek kecil, tugas akademik, atau portofolio pribadi yang tidak memerlukan biaya tambahan.
 - **Fitur Memadai**: Menawarkan bandwidth tak terbatas dan ruang penyimpanan yang cukup besar untuk mendukung aplikasi.
@@ -106,11 +110,13 @@ Alasan saya memilih InfinityFree karena:
 - **Dukungan PHP dan MySQL**: Mendukung pengembangan aplikasi web dinamis yang memerlukan basis data, seperti yang dibutuhkan oleh aplikasi saya.
 
 **Bagaimana Anda memastikan keamanan aplikasi web yang Anda host: (5%)**
+
 Cara Memastikan Keamanan Aplikasi Web yang Dihost:
 - Memastikan setiap formulir di website perpustakaan, seperti formulir login atau pendaftaran, dilengkapi dengan validasi input di sisi klien (menggunakan JavaScript) dan di sisi server (menggunakan PHP).
 - Menggunakan fungsi sanitasi, seperti `htmlspecialchars()` di PHP, untuk mencegah serangan XSS (Cross-Site Scripting), terutama saat menampilkan input pengguna di halaman web.
 
 **Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda. (5%)**
+
 Konfigurasi Server:
 - Saya menggunakan InfinityFree sebagai penyedia hosting gratis dengan beberapa fitur utama yang saya manfaatkan, seperti: subdomain gratis (http://sembakojayaabadi.wuaze.com/), database MySQL dengan hostname server spesifik, dan dukungan untuk PHP versi terbaru.
 - Database MySQL dibuat melalui cPanel InfinityFree, yang sebelumnya telah saya persiapkan di localhost. Konfigurasi koneksi database dilakukan pada setiap file dengan mencantumkan detail hostname, username, password, dan nama database.
