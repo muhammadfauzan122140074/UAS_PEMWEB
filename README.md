@@ -7,10 +7,6 @@
 - Kelas: RA
 ---
 
-# Informasi Akun untuk Admin
-
----
-
 # Penilaian UAS Pemrograman Web
 - Client-side Programming: 30%
 - Server-side Programming: 30%
@@ -33,11 +29,24 @@ Jika terjadi kesalahan pada username atau password, pengguna akan menerima notif
 - Password salah!
   ![Screenshot 2024-12-24 002148](https://github.com/user-attachments/assets/2f0ca8af-f756-4a73-9162-f877aee0e324)
 
-Pengguna juga dapat mengakses halaman untuk menabahkan data produk Sembako:
+Pengguna juga dapat mengakses halaman untuk menambahkan data produk Sembako:
 ![Screenshot 2024-12-24 003553](https://github.com/user-attachments/assets/a3ebf14d-66ef-45bc-b3bf-207297d997fb)
+
+Jika pengguna berhasil menambahkan data produk Sembako maka akan menampilkan event seperti ini:
+![Screenshot 2024-12-24 015707](https://github.com/user-attachments/assets/e2c7acac-97db-48ea-98a3-4851d54e45d9)
 
 Pengguna juga dapat mengakses halaman untuk meng-update (mengedit) data produk Sembako:
 ![Screenshot 2024-12-24 003846](https://github.com/user-attachments/assets/05f96613-9716-4905-8f05-730771a2d5d6)
+
+Jika pengguna berhasil meng-update (mengedit) data produk Sembako maka akan menampilkan event seperti ini:
+![Screenshot 2024-12-24 020233](https://github.com/user-attachments/assets/c1a1263d-ee21-4c80-94eb-d644a64f898d)
+
+Dan sebaliknta, jika pengguna gagal meng-update (mengedit) data produk Sembako maka akan menampilkan event seperti ini:
+![Screenshot 2024-12-24 020249](https://github.com/user-attachments/assets/ce529de2-5948-4553-90cb-0e71a159d489)
+
+Jika pengguna ingin menghapus data produk Sembako maka akan muncul event konfirmasi seperti ini:
+![Screenshot 2024-12-24 020415](https://github.com/user-attachments/assets/f2ee4320-1c44-4911-901f-9922a38ea9dc)
+![Screenshot 2024-12-24 020423](https://github.com/user-attachments/assets/27247b84-7516-49ab-8fcf-caf1bb23bd01)
 
 ---
 
