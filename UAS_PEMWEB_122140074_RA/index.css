@@ -1,0 +1,180 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(255, 255, 255);  /* Warna latar belakang netral untuk memperjelas konten */
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #F44336, #3F51B5, #FFEB3B);  /* Gradasi dari merah, biru, kuning */
+    padding: 20px 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);  /* Bayangan untuk kedalaman */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 30px;
+}
+
+.nav-left {
+    flex: 1;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-left a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-right {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    font-size: 1.8em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; /* Membuat tulisan lebih tegas */
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    color: #FFEB3B;  /* Warna kuning saat hover */
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #FF5722;  /* Warna merah tombol */
+    transition: all 0.3s ease;
+}
+
+.nav-right a:hover {
+    background-color: #FFEB3B;  /* Warna kuning saat hover */
+    color: #3F51B5;  /* Teks berubah menjadi biru */
+    transform: translateY(-3px);  /* Efek angkat saat hover */
+}
+
+/* Centered Content */
+.centered {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.centered h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #F44336;  /* Merah untuk judul */
+    margin-bottom: 20px;
+}
+
+.centered p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.centered img {
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Efek bayangan untuk gambar */
+    margin-top: 30px;
+}
+
+/* Styling for the Produk Unggulan and Testimonials */
+.card {
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: contain; /* Ensure images cover the area */
+}
+
+.testimonials .card-body {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.testimonials .card-footer {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Styling for the Description Section */
+.description {
+    background-color: white; /* Yellow background */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.description p {
+    font-size: 1.1em;
+}
+
+/* Additional Styling for Buttons (if any) */
+.btn {
+    background-color: #d32f2f; /* Red button */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c62828; /* Darker red on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .centered h1 {
+        font-size: 2.5em;
+    }
+
+    .centered p {
+        font-size: 1.1em;
+    }
+
+    .centered img {
+        width: 100%;
+    }
+}

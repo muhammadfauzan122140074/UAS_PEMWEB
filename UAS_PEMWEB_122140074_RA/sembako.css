@@ -1,0 +1,137 @@
+/* NAVBAR STYLING */
+.navbar {
+    background-color: #0047ab; /* Biru khas toko sembako modern */
+    padding: 1rem;
+    border-bottom: 2px solid #ffcc00; /* Kuning cerah */
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem; /* Tambahkan padding untuk tampilan tombol */
+    border-radius: 5px; /* Tambahkan border-radius untuk sudut yang lebih lembut */
+    background-color: #ff5733; /* Warna latar belakang tombol */
+    transition: background-color 0.3s, color 0.3s; /* Transisi untuk efek hover */
+}
+
+.nav-right a:hover {
+    background-color: #4e94f5; /* Merah oranye saat hover */
+    color: #ffffff; /* Warna teks tetap putih saat hover */
+}
+
+/* FORM SEARCH STYLING */
+form input[type="search"] {
+    border-radius: 30px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s;
+}
+
+form input[type="search"]:focus {
+    border-color: #0047ab;
+    box-shadow: 0 0 5px #0047ab;
+}
+
+form .btn {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+    color: #0047ab;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+form .btn:hover {
+    background-color: #ffdd33;
+    border-color: #ffdd33;
+}
+
+/* TABLE STYLING */
+.table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Pusatkan teks dalam tabel */
+}
+
+.table th {
+    background-color: #ffcc00;
+    color: #0047ab;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.table td {
+    vertical-align: middle; /* Pusatkan konten secara vertikal */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #ffe680;
+}
+
+/* BUTTONS IN TABLE */
+.table .btn-outline-warning {
+    color: #19d625;
+    border-color: #19d625;
+}
+
+.table .btn-outline-warning:hover {
+    background-color: #1b6f21;
+    color: #fff;
+}
+
+.table .btn-outline-danger {
+    color: #c70039;
+    border-color: #c70039;
+}
+
+.table .btn-outline-danger:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+/* BUTTON TAMBAH SEMBAKO */
+.btn-outline-success {
+    background-color: #ae7327;
+    border-color: #ae7327;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-outline-success:hover {
+    background-color: #dca359;
+    border-color: #dca359;
+}
+
+/* GENERAL STYLING */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc; /* Biru sangat terang */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* CUSTOMIZE THEME FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
